@@ -13,7 +13,6 @@
 ### ✔Commit Convention
 
 - 한 문제 해결 시 commit을 진행합니다
-- commit 메세지 예시
 
 ```jsx
 Docs : README.md 등 문서 작성 및 수정
