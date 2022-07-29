@@ -56,7 +56,8 @@ git commit -m "Remove : BOJ 13460 구슬 탈출 2"
 ### ✔Project Convention
 
 - 프로젝트는 각자 개인 패키지에서 작업하고 구조는 다음과 같이 구성합니다.
-  ‘이름/week 번호/ 플랫폼_문제번호_레벨_문제이름.java’
+
+	- 이름/week 번호/ 플랫폼_문제번호_레벨_문제이름.java
 
 ```jsx
 wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java;
