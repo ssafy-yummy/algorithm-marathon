@@ -25,25 +25,25 @@ Remove : 파일 삭제
 - 문제를 풀고 난 뒤
 
 ```jsx
-git commit -m "BOJ : 13460 구슬 탈출 2"
+git commit -m "BOJ : 13460 G4 구슬 탈출 2"
 ```
 
 - 이미 커밋한 코드 수정 시
 
 ```jsx
-git commit -m "Fix : BOJ 13460 구슬 탈출 2, 탐색 방법 수정"
+git commit -m "Fix : BOJ 13460 G4 구슬 탈출 2, 탐색 방법 수정"
 ```
 
 - [README.md](http://README.md) 작성 및 수정 시
 
 ```jsx
-git commit -m "Docs : BOJ 13460 구슬 탈출 2"
+git commit -m "Docs : BOJ 13460 G4 구슬 탈출 2"
 ```
 
 - 파일 삭제 시
 
 ```jsx
-git commit -m "Remove : BOJ 13460 구슬 탈출 2"
+git commit -m "Remove : 구슬 탈출 2"
 ```
 
 - 플랫폼 통일
