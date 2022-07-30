@@ -60,9 +60,9 @@ git commit -m "Remove : BOJ 13460 구슬 탈출 2"
 	- 이름/week 번호/ 플랫폼_문제번호_레벨_문제이름.java
 
 ```jsx
-wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java;
+wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java
 
-wonjoon / week3 / PG_43162_LV3_네트워크.java;
+wonjoon / week3 / PG_43162_LV3_네트워크.java
 ```
 
 ### ✔Code Convention
@@ -80,7 +80,7 @@ static void findTarget(){
 ### ✔Pull Request Convention
 
 - 최소 주 1 회 이상 일요일 풀이 마감 이전에 PR 을 진행합니다.
-- 코드 리뷰는 자율적으로 진행하고 추가 피드백을 원하면 [README.md](http://README.md) 혹은 comment를 작성합니다.
+- 코드 리뷰는 자율적으로 진행하고 추가 피드백을 원하면 README.md 혹은 comment를 작성합니다.
 - 파일 명, 주석 등은 규칙에 맞게 작성해서 다른 사람이 보기 쉽게 하도록 합니다.
 - 해당 문제의 Label을 등록해서 어떤 분류의 문제인지 알기 쉽게 합니다.
 
