@@ -51,7 +51,7 @@ git commit -m "Remove : BOJ 13460 구슬 탈출 2"
   - PG : 프로그래머스
   - LTC : 리트코드
   - CFS : 코드포스
-  - SWEA : 삼성 SW Expert Acadamy
+  - SWEA : 삼성 SW Expert Academy
 
 ### ✔Project Convention
 
