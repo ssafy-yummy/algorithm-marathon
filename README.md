@@ -25,25 +25,25 @@ Remove : 파일 삭제
 - 문제를 풀고 난 뒤
 
 ```jsx
-git commit -m "BOJ : 13460 구슬 탈출 2"
+git commit -m "BOJ : 13460 G4 구슬 탈출 2"
 ```
 
 - 이미 커밋한 코드 수정 시
 
 ```jsx
-git commit -m "Fix : BOJ 13460 구슬 탈출 2, 탐색 방법 수정"
+git commit -m "Fix : BOJ 13460 G4 구슬 탈출 2, 탐색 방법 수정"
 ```
 
 - [README.md](http://README.md) 작성 및 수정 시
 
 ```jsx
-git commit -m "Docs : BOJ 13460 구슬 탈출 2"
+git commit -m "Docs : BOJ 13460 G4 구슬 탈출 2"
 ```
 
 - 파일 삭제 시
 
 ```jsx
-git commit -m "Remove : BOJ 13460 구슬 탈출 2"
+git commit -m "Remove : 구슬 탈출 2"
 ```
 
 - 플랫폼 통일
@@ -51,7 +51,7 @@ git commit -m "Remove : BOJ 13460 구슬 탈출 2"
   - PG : 프로그래머스
   - LTC : 리트코드
   - CFS : 코드포스
-  - SWEA : 삼성 SW Expert Acadamy
+  - SWEA : 삼성 SW Expert Academy
 
 ### ✔Project Convention
 
@@ -60,9 +60,9 @@ git commit -m "Remove : BOJ 13460 구슬 탈출 2"
 	- 이름/week 번호/ 플랫폼_문제번호_레벨_문제이름.java
 
 ```jsx
-wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java;
+wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java
 
-wonjoon / week3 / PG_43162_LV3_네트워크.java;
+wonjoon / week3 / PG_43162_LV3_네트워크.java
 ```
 
 ### ✔Code Convention
@@ -80,7 +80,7 @@ static void findTarget(){
 ### ✔Pull Request Convention
 
 - 최소 주 1 회 이상 일요일 풀이 마감 이전에 PR 을 진행합니다.
-- 코드 리뷰는 자율적으로 진행하고 추가 피드백을 원하면 [README.md](http://README.md) 혹은 comment를 작성합니다.
+- 코드 리뷰는 자율적으로 진행하고 추가 피드백을 원하면 README.md 혹은 comment를 작성합니다.
 - 파일 명, 주석 등은 규칙에 맞게 작성해서 다른 사람이 보기 쉽게 하도록 합니다.
 - 해당 문제의 Label을 등록해서 어떤 분류의 문제인지 알기 쉽게 합니다.
 
@@ -97,5 +97,5 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | ---- | ----- | -------------------------------------------------------- | ----------- | ----------- |
 | BOJ  | 1920  | [수 찾기](https://www.acmicpc.net/problem/1920)          | 이분탐색    | S4          |
 | BOJ  | 14501 | [퇴사](https://www.acmicpc.net/problem/14501)            | 브루트포스  | S3          |
-| BOJ  | 3190  | [뱀](https://www.acmicpc.net/problem/3190)               | 큐          | G4          |
+| BOJ  | 3190  | [뱀](https://www.acmicpc.net/problem/3190)               | 덱/큐          | G4          |
 | BOJ  | 2667  | [단지 번호 붙이기](https://www.acmicpc.net/problem/2667) | 그래프 탐색 | S1          |
