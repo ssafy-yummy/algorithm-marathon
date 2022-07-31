@@ -24,7 +24,6 @@ public class Main_2920 {
 
         for (int i = 0; i < m; i++) {
             System.out.println(main.check(nArr, mArr[i], 0, n));
-            System.out.println("--------------------");
         }
     }
 
