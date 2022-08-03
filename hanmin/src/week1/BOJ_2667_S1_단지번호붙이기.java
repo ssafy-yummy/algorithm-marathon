@@ -1,5 +1,3 @@
-package week1;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BOJ_2667_S1_단지번호붙이기 {
+public class Main {
 	// N 25 * 25
 	// 시간복잡도 O(N^2);
 	static int[][] arr;
@@ -22,6 +20,7 @@ public class BOJ_2667_S1_단지번호붙이기 {
 		// 입력
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(br.readLine());
+
 		arr = new int[N][N];
 		// 해당 위치 방문했는지 체크
 		visit = new int[N][N];
