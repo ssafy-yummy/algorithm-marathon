@@ -1,64 +1,39 @@
-package week1;
-
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 오답
 public class BOJ_14501_S3_퇴사 {
+	// N 15
+	// T 5
+	// P 1000
+	// dp활용 dp[t+i]= dp[i]+pi
+	// 총 시간복잡도 O(N)
+	static int N;
 
-	static int n;
-	static int[][] works;
-	static int ans = 0;
-	// n일 동안 최대로 얻을 수 있는 수익
-	static int[] dp;
+	public static void main(String[] args) throws NumberFormatException, IOException {
 
-	public static void main(String[] args) throws Exception {
-
+		// 입력
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		n = Integer.parseInt(br.readLine());
-		dp = new int[n + 1];
-
-		// 배열 초기화
-		works = new int[n][2];
-		for (int i = 0; i < works.length; i++) {
+		N = Integer.parseInt(br.readLine());
+		int[] t = new int[N + 2];
+		int[] p = new int[N + 2];
+		// 각각 배열에 저장
+		for (int i = 1; i <= N; ++i) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
-			works[i][0] = Integer.parseInt(st.nextToken());
-			works[i][1] = Integer.parseInt(st.nextToken());
+			t[i] = Integer.parseInt(st.nextToken());
+			p[i] = Integer.parseInt(st.nextToken());
 		}
-
-		for (int i = 0; i < n; i++) {
-			// t: 소모 시간
-			int t = works[i][0];
-			// p: 받는 금액
-			int p = works[i][1];
-
-			// 현재 날짜 i에 소모 시간 t을 더한 것이 총 시간 n을 넘어가지 않아야 한다.
-			if (i + t <= n) {
-				// 현재(i+t)까지 얻을 수 있는 최대 금액을 dp에 저장
-				dp[i + t] = Math.max(dp[i + t], dp[i] + p);
-			}
-			// 해당 일자가 0인 경우 최대 값을 넣어준다.
-			// 즉 해당 날짜에 일하지 않는다면 현재까지 최대 값을 넣어준다.
-			dp[i + 1] = Math.max(dp[i + 1], dp[i]);
+		// N+T+1만큼 배열 생성
+		int[] dp = new int[N + 6];
+		for (int i = 1; i <= N+1; ++i) {
+			// i-1일 까지 번 금액과 i일까지 번 금액 비교
+			dp[i] = Math.max(dp[i], dp[i - 1]);
+			// i+T일 후 i까지 번 금액 + P만큼 벌 수 있다.
+			dp[i + t[i]] = Math.max(dp[i + t[i]], dp[i] + p[i]);
 		}
-		System.out.println(dp[n]);
-		// 오답 코드 .. 이중 포문으로 해결 X
-//		for (int i = 0; i < works.length; i++) {
-//			int time = 0;
-//			int tmp = 0;
-//			for (int j = i; j < works.length; j++) {
-//				int t = works[j][0];
-//				int p = works[j][1];
-//				if (i + time + t <= n) {
-//					time += t;
-//					tmp += p;
-//					j = i + time - 1;
-//				}
-//			}
-//			ans = Math.max(ans, tmp);
-//		}
-
+		// N일까지 이므로 N+1일의 수익 계산
+		System.out.println(dp[N + 1]);
+		br.close();
 	}
 }
