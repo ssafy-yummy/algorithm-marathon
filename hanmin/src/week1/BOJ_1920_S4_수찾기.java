@@ -16,7 +16,6 @@ public class BOJ_1920_S4_수찾기 {
 	static int N;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-
 		// 입력
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(br.readLine());
