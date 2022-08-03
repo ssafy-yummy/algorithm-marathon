@@ -22,7 +22,6 @@ public class BOJ_2667_S1_단지번호붙이기 {
 		// 입력
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(br.readLine());
-
 		arr = new int[N][N];
 		// 해당 위치 방문했는지 체크
 		visit = new int[N][N];
