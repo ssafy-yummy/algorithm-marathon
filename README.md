@@ -59,9 +59,9 @@ git commit -m "Remove : 구슬 탈출 2"
   - 이름/week 번호/ 플랫폼*문제번호*레벨\_문제이름.java
 
 ```jsx
-wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java;
+wonjoon / week3 / BOJ_13460_G1_구슬탈출2.java
 
-wonjoon / week3 / PG_43162_LV3_네트워크.java;
+wonjoon / week3 / PG_43162_LV3_네트워크.java
 ```
 
 ### ✔Code Convention
@@ -84,7 +84,7 @@ static void findTarget(){
 - 해당 문제의 Label을 등록해서 어떤 분류의 문제인지 알기 쉽게 합니다. -->
 
 - 한 문제를 풀고 한 문제 당 Commit & PR을 진행합니다.
-- 코드 리뷰는 자율적으로 진행하지만 README.md 혹은 comment를 통해 문제 원본 및 출력을 그대로 "복사 & 붙여넣기" 하고 하단에 자신이 풀이에 접근한 방법, 걸린 시간을 기재합니다.
+- 코드 리뷰는 자율적으로 진행하지만 README.md 혹은 comment를 통해 문제 원본 및 출력을 그대로 "복사 & 붙여넣기" 하고 하단에 자신이 풀이와 접근한 방법, 걸린 시간을 기재합니다.
 - 파일 명, 주석 등은 규칙에 맞게 작성해서 다른 사람이 보기 쉽게 하도록 합니다.
 - 해당 문제의 Label을 등록해서 어떤 분류의 문제인지 알기 쉽게 합니다. -->
 
