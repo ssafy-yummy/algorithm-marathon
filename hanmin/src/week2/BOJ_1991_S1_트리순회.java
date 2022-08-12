@@ -76,6 +76,7 @@ public class BOJ_1991_S1_트리순회 {
 			fst.c1 = snd;
 			fst.c2 = trd;
 		}
+		
 		Node root = Node.findNode("A");
 		Node.pre(root);
 		System.out.println();
