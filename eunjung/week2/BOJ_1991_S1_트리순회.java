@@ -29,7 +29,7 @@ public class BOJ_1991_S1_트리순회 {
 	
 	private static void preOrder(char c) {	
 		char[] node = map.get(c);
-		
+		 
 		System.out.print(c); // 전위순회
 		// 자식노드가 있을경우 recursion
 		if(node[0] != '.') preOrder(node[0]);
