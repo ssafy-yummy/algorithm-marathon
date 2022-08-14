@@ -6,12 +6,10 @@ import java.util.Scanner;
 
 public class Main {
 
-    // static 변수 선언
     static int n ,m;
     static int[][] map;
     static int wall = 3;
 
-    // 방향 조절
     static int[] dr = {-1, 0, 1, 0};
     static int[] dc = {0, 1, 0, -1};
 
