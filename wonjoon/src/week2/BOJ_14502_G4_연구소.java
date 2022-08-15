@@ -13,7 +13,7 @@ public class BOJ_14502_G4_연구소 {
 	static int[][] board, simul;
 	static ArrayList<SafeZone> sz = new ArrayList<>(); // 조합에 사용할 안전 구역 좌표
 	static ArrayList<Virus> vs = new ArrayList<>(); // 큐에 넣을 바이러스 좌표
-	static int[] selected, threeWalls;
+	static int[] threeWalls;
 	static int[] dr = { -1, 0, 1, 0 };
 	static int[] dc = { 0, 1, 0, -1 };
 
