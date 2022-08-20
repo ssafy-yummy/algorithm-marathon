@@ -11,17 +11,14 @@ public class BOJ_1920_S4_수찾기 {
 	static int N, M;
 	static int[] A;
 	static int[] B;
-<<<<<<< Updated upstream
 
 	static int head;
 	static int tail;
 	static int target;
 	static boolean chk;
-
-=======
+	static StringBuilder sb;
 	static int point;
-	
->>>>>>> Stashed changes
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -37,11 +34,10 @@ public class BOJ_1920_S4_수찾기 {
 		B = new int[M];
 		st = new StringTokenizer(br.readLine());
 		for (int i = 0; i < M; i++) {
-<<<<<<< Updated upstream
 			B[i] = Integer.parseInt(st.nextToken());
 		} // end of reading
 
-		StringBuilder sb = new StringBuilder();
+		sb = new StringBuilder();
 
 		Arrays.sort(A);
 
@@ -70,14 +66,14 @@ public class BOJ_1920_S4_수찾기 {
 			if (!chk) {
 
 				sb.append("0\n");
-=======
 			B[i]= Integer.parseInt(st.nextToken());
+			}
 		}//end of reading
 		
 		
 		Arrays.sort(A); // 찾을 A 배열 정렬
 		
-		StringBuilder sb= new StringBuilder(); //답출력할 sb
+		sb= new StringBuilder(); //답출력할 sb
 		
 		for (int i = 0; i < M; i++) {
 			find(i); //B를 돌면서 로직 수행
@@ -108,22 +104,16 @@ public class BOJ_1920_S4_수찾기 {
 				break;
 			}else { //찾는 값이 A배열의 중간보다 작다면
 				point /=2; // point를 계속 줄임
->>>>>>> Stashed changes
 			}
 			
 				
 				
 		}
-<<<<<<< Updated upstream
 
 		System.out.println(sb.toString());
-=======
 		
 		
 		
-	}
->>>>>>> Stashed changes
-
 	}
 
 }
