@@ -11,12 +11,17 @@ public class BOJ_1920_S4_수찾기 {
 	static int N, M;
 	static int[] A;
 	static int[] B;
+<<<<<<< Updated upstream
 
 	static int head;
 	static int tail;
 	static int target;
 	static boolean chk;
 
+=======
+	static int point;
+	
+>>>>>>> Stashed changes
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -32,6 +37,7 @@ public class BOJ_1920_S4_수찾기 {
 		B = new int[M];
 		st = new StringTokenizer(br.readLine());
 		for (int i = 0; i < M; i++) {
+<<<<<<< Updated upstream
 			B[i] = Integer.parseInt(st.nextToken());
 		} // end of reading
 
@@ -64,10 +70,59 @@ public class BOJ_1920_S4_수찾기 {
 			if (!chk) {
 
 				sb.append("0\n");
+=======
+			B[i]= Integer.parseInt(st.nextToken());
+		}//end of reading
+		
+		
+		Arrays.sort(A); // 찾을 A 배열 정렬
+		
+		StringBuilder sb= new StringBuilder(); //답출력할 sb
+		
+		for (int i = 0; i < M; i++) {
+			find(i); //B를 돌면서 로직 수행
+		}
+		
+	}
+	
+	//로직 메서드
+	private static void find(int i) {
+		int point = N/2; //초기 인덱스
+		
+		if(B[i]>=A[point]) { //찾는 값이 A배열의 중간보다 크다면
+			while(B[i]>=A[point]) { // 
+				point += (N-point)/2; //point를 계속 키움
+			}
+		}else { //찾는 값이 A배열의 중간보다 작다면
+			while(B[i]<A[point]) {
+			
 			}
 		}
+		
+		
+		while(true) {
+			if(B[i]>A[point]) { //찾는 값이 A배열의 중간보다 크다면
+				point += (N-point)/2; //point를 계속 키움
+			}else if(B[i]==A[point]) {
+				
+				break;
+			}else { //찾는 값이 A배열의 중간보다 작다면
+				point /=2; // point를 계속 줄임
+>>>>>>> Stashed changes
+			}
+			
+				
+				
+		}
+<<<<<<< Updated upstream
 
 		System.out.println(sb.toString());
+=======
+		
+		
+		
+	}
+>>>>>>> Stashed changes
 
 	}
 
