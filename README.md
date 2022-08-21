@@ -121,3 +121,13 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 14889 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 백트랙킹   | S2   |
 | BOJ  | 2293  | [동전 1](https://www.acmicpc.net/problem/2293)         | DP         | G5   |
 | BOJ  | 17281 | [⚾](https://www.acmicpc.net/problem/17281)            | 완탐, 구현 | G4   |
+
+### 🏃🏻‍♂️week 4
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 2805  | [나무 자르기](https://www.acmicpc.net/problem/2805)    	| 이분 탐색       | S2   |
+| BOJ  | 14888 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | 백트래킹   	    | S1   |
+| BOJ  | 7576  | [토마토](https://www.acmicpc.net/problem/7576)              | 그래프 탐색     | G5   |
+| BOJ  | 1915  | [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)    | DP 		| G4   |
+
