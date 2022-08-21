@@ -130,4 +130,3 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 14888 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | 백트래킹   	    | S1   |
 | BOJ  | 7576  | [토마토](https://www.acmicpc.net/problem/7576)              | 그래프 탐색     | G5   |
 | BOJ  | 1915  | [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)    | DP 		| G4   |
-
