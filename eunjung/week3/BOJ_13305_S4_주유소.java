@@ -31,7 +31,7 @@ public class BOJ_13305_S4_주유소 {
 			if(city[index]>city[i]) index = i;
 			sum += city[index]*road[i];
 			// 주유소 값 비교후 적은 주유소로 충전
-		}
+		} 
 		System.out.println(sum);
 	}
 }
