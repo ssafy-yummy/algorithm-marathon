@@ -1,4 +1,4 @@
-package com.ssafy.algorithm.boj;
+package week4;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -27,14 +27,6 @@ public class BOJ_1915_G4_가장큰정사각형 {
 				dp[i][j + 1] = tp + dp[i - 1][j + 1] + dp[i][j] - dp[i - 1][j];
 			}
 		}
-
-//		System.out.println();
-//		for (int[] is : dp) {
-//			for (int i : is) {
-//				System.out.print(i + " ");
-//			}
-//			System.out.println();
-//		}
 
 		for (int i = 1; i <= N; i++) {
 			for (int j = 1; j <= M; j++) {
