@@ -1,11 +1,11 @@
-package com.ssafy.algorithm.boj;
+package week4;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // DP
-public class BOJ_1915_G4_가장큰정사각형_DP2 {
+public class BOJ_1915_G4_가장큰정사각형_DP {
 
 	static int N, M, ans;
 	static int[][] board, dp;
@@ -37,14 +37,6 @@ public class BOJ_1915_G4_가장큰정사각형_DP2 {
 				ans = Math.max(ans, up * up);
 			}
 		}
-
-//		System.out.println();
-//		for (int[] is : dp) {
-//			for (int i : is) {
-//				System.out.print(i + " ");
-//			}
-//			System.out.println();
-//		}
 
 		System.out.println(ans);
 
