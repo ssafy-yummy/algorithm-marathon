@@ -1,53 +1,57 @@
 package com.ssafy.algorithm.boj;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 // DP
-public class BOJ_1915_G4_가장큰정사각형_DP3 {
-	private static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-	private static BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
-	private static int N, M, max;
-	private static int[][] arr, dp;
+public class BOJ_1915_G4_가장큰정사각형_DP2 {
 
-	private static void input() throws IOException {
-		StringTokenizer nm = new StringTokenizer(bufferedReader.readLine());
-		N = Integer.parseInt(nm.nextToken());
-		M = Integer.parseInt(nm.nextToken());
-		arr = new int[N][M];
-		dp = new int[N][M];
-		for (int i = 0; i < N; i++) {
-			char[] line = bufferedReader.readLine().toCharArray();
+	static int N, M, ans;
+	static int[][] board, dp;
+
+	public static void main(String[] args) throws Exception {
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+
+		board = new int[N + 1][M + 1];
+		dp = new int[N + 1][M + 1];
+		for (int i = 1; i <= N; i++) {
+			String[] tmp = br.readLine().split("");
 			for (int j = 0; j < M; j++) {
-				arr[i][j] = Character.getNumericValue(line[j]);
-				dp[i][j] = arr[i][j];
-				if (i >= 1 && j >= 1) {
-					if (dp[i - 1][j] > 0 && dp[i - 1][j - 1] > 0 && dp[i][j - 1] > 0 && dp[i][j] > 0) {
-						int min = Math.min(dp[i - 1][j], Math.min(dp[i - 1][j - 1], dp[i][j - 1]));
-						dp[i][j] = min + 1;
-					}
+				int tp = Integer.parseInt(tmp[j]);
+				dp[i][j + 1] = tp;
+
+				if (tp == 0)
+					continue;
+				int up = 1;
+				int min = min(dp[i - 1][j], dp[i][j], dp[i - 1][j + 1]);
+				if (min != 0) {
+					up = min + 1;
+					dp[i][j + 1] = up;
 				}
-				max = Math.max(max, dp[i][j]);
+
+				ans = Math.max(ans, up * up);
 			}
 		}
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < M; j++) {
-				System.out.print(dp[i][j] + " ");
-			}
-			System.out.println();
-		}
+
+//		System.out.println();
+//		for (int[] is : dp) {
+//			for (int i : is) {
+//				System.out.print(i + " ");
+//			}
+//			System.out.println();
+//		}
+
+		System.out.println(ans);
+
 	}
 
-	private static void solve() throws IOException {
-		System.out.println(max * max);
+	private static int min(int a, int b, int c) {
+		return Math.min(a, Math.min(b, c));
 	}
 
-	public static void main(String[] args) throws IOException {
-		input();
-		solve();
-	}
 }
