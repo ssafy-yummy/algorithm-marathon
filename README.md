@@ -139,3 +139,12 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 18352 | [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)    | 최단거리 | S2   |
 | BOJ  | 14503  | [로봇 청소기](https://www.acmicpc.net/problem/14503) | 구현     | G5   |
 | BOJ  | 2011  | [암호코드](https://www.acmicpc.net/problem/2011)    | DP 		| G5   |
+
+### 🏃🏻‍♂️week 6
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 3184  | [양](https://www.acmicpc.net/problem/3184)    	| 그래프 탐색    | S1   |
+| BOJ  | 20055 | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)    | 구현 | G5   |
+| BOJ  | 1106  | [호텔](https://www.acmicpc.net/problem/1106) | DP     | G5   |
+| BOJ  | 20115  | [에너지 드링크](https://www.acmicpc.net/problem/20115)    | 그리디 		| S3   |
