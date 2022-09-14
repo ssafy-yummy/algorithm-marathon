@@ -154,10 +154,9 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | Type | 문제  | 제목                                                   | 유형       | 등급 |
 | ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
 | BOJ  | 12100  | [2048 (Easy)](https://www.acmicpc.net/problem/12100)    	| 구현    | G2   |
-| BOJ  | 11053 | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)    | DP | S2   |
-| BOJ  | 11054  | [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | DP     | G4   |
+| BOJ  | 17413 | [단어 뒤집기 2](https://www.acmicpc.net/problem/17413)    | 문자열 | S3   |
+| BOJ  | 1182  | [부분수열의 합](https://www.acmicpc.net/problem/1182) | 백트래킹     | S2   |
 | BOJ  | 1715   | [카드 정렬하기](https://www.acmicpc.net/problem/1715)    | 우선순위큐 | G4   |
-
 
 
 
