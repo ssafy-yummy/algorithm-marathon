@@ -148,3 +148,25 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 20055 | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)    | 구현 | G5   |
 | BOJ  | 1106  | [호텔](https://www.acmicpc.net/problem/1106) | DP     | G5   |
 | BOJ  | 20115  | [에너지 드링크](https://www.acmicpc.net/problem/20115)    | 그리디 		| S3   |
+
+### 🏃🏻‍♂️week 7
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 12100  | [2048 (Easy)](https://www.acmicpc.net/problem/12100)    	| 구현    | G2   |
+| BOJ  | 17413 | [단어 뒤집기 2](https://www.acmicpc.net/problem/17413)    | 문자열 | S3   |
+| BOJ  | 1182  | [부분수열의 합](https://www.acmicpc.net/problem/1182) | 백트래킹     | S2   |
+| BOJ  | 1715   | [카드 정렬하기](https://www.acmicpc.net/problem/1715)    | 우선순위큐 | G4   |
+
+### 🏃🏻‍♂️week 8
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| SWEA  | 1953  | [탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq&categoryId=AV5PpLlKAQ4DFAUq&categoryType=CODE&problemTitle=%ED%83%88%EC%A3%BC&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&)    	| 구현 | 모의 |
+| PG | 92342 | [양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)    | 구현 | Lv.2   |
+| BOJ  | 16928 | [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928) | 구현,그래프 | G5   |
+| BOJ  | 15685 | [드래곤 커브](https://www.acmicpc.net/problem/15685)    | 구현 | G5 |
+
+
+
+ 

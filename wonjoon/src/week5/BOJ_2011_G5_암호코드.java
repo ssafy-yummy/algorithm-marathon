@@ -13,7 +13,7 @@ public class BOJ_2011_G5_암호코드 {
 		// 첫 문자가 0이면 잘못된 문자열
 		if (data[0] == '0') {
 			System.out.println(0);
-			System.exit(0);
+			return;
 		}
 
 		int[] dp = new int[data.length + 1];
