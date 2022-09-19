@@ -145,5 +145,5 @@ public class BOJ_12100_G2_2048 {
               break;
        }
    }
-
+ 
 }
