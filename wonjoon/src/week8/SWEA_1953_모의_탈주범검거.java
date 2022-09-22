@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_모의_탈주범검거 {
+public class SWEA_1953_모의_탈주범검거 {
 
 	static int N, M, R, C, L, ans = 1;
 	static int[][] board;
