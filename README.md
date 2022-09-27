@@ -168,5 +168,13 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 15685 | [드래곤 커브](https://www.acmicpc.net/problem/15685)    | 구현 | G4 |
 
 
+### 🏃🏻‍♂️week 8
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 1916  | [최소 비용 구하기](https://www.acmicpc.net/problem/1916)    	| 다익스트라 | G5 |
+| BOJ | 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252)    | 위상 정렬 | G3   |
+| BOJ  | 1976 | [여행 가자](https://www.acmicpc.net/problem/1976) | 그래프,분리 집합 |  G4  |
+| **BOJ**  | **16234** | **[인구 이동](https://www.acmicpc.net/problem/15685)**    | **구현** | **G5** |
 
  
