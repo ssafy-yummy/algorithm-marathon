@@ -51,12 +51,11 @@ public class BOJ_1916_G5_최소비용구하기 {
 			// 1. 시작 도시 정하기 (방문한 적 없고, dp값이 최소인 것)
 			int start = -1;
 			int min = INF;
-			for (int i = 1; i < N + 1; i++) {
+			for (int i = 1; i < N + 1; i++)
 				if (!visited[i] && dp[i] < min) {
 					min = dp[i];
 					start = i;
 				}
-			}
 			
 			if (start == -1) break;
 			visited[start] = true;
