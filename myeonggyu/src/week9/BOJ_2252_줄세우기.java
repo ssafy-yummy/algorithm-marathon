@@ -43,6 +43,7 @@ public class BOJ_2252_줄세우기 {
 			p[i] = new Node(new ArrayList<>(), 0);
 		}
 		
+		
 		//m번 순회하면서 상태정보를 저장. a가 b보다 앞에 서야 하므로 a의 next에 b를 추가하고, b의 dept를 1 늘림.
 		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -51,8 +52,6 @@ public class BOJ_2252_줄세우기 {
 			
 			p[a].next.add(b);
 			p[b].dept++;
-				
-				
 		}
 		
 		
@@ -61,7 +60,8 @@ public class BOJ_2252_줄세우기 {
 		Queue<Integer> queue = new LinkedList<>();
 		
 		
-//		모든 사람들을 탐색하며 dept==0인, 즉 누군가에 뒤에 설 필요가 없는 사람들을 찾음
+//		모든 사람들을 탐색하며 dept==0인, 즉 누군가에 뒤에 설 필요가 없는 사람들을 찾음, queue에 offer.
+		
 		for (int i = 1; i < n+1; i++) {
 			if(p[i].dept ==0) {
 				queue.offer(i);
