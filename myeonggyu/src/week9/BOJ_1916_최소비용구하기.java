@@ -32,8 +32,7 @@ public class BOJ_1916_최소비용구하기 {
 		public String toString() {
 			return "Bus [d=" + d + ", w=" + w + "]";
 		}
-		
-		
+				
 	}
 	
 	//현재 상태를 저장하기위한 클래스

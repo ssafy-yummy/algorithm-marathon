@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_16234_인구이동 {
+public class BOJ_16234_G5_인구이동 {
 	
 	static int n;
 	static int l;
