@@ -59,10 +59,8 @@ public class BOJ_1916_G5_최소비용구하기 {
 		public int compareTo(State o) {
 			return Integer.compare(this.w, o.w);
 		}
-		
 				
 	}
-	
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
