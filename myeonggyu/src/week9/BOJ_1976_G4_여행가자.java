@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class BOJ_1976_여행가자 {
+public class BOJ_1976_G4_여행가자 {
 	
 	static int n;
 	static int m;
