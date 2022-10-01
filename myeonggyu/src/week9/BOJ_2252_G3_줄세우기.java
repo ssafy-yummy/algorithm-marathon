@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_2252_줄세우기 {
+public class BOJ_2252_G3_줄세우기 {
 	
 	
 	//위상정렬을 위한 클래스. next는 해당 사람보다 뒤에 서야하는 사람들의 리스트, dept는 현재 사람보다 앞에서야하는 사람들의 숫자.
