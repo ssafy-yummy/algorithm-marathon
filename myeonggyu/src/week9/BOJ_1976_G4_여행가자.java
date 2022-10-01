@@ -19,8 +19,7 @@ public class BOJ_1976_G4_여행가자 {
 		
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
+		StringTokenizer st;		
 		
 		//n = 맵의 크기
 		//m = 여행할 도시들의 갯수
