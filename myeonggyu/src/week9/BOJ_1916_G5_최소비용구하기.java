@@ -60,8 +60,7 @@ public class BOJ_1916_G5_최소비용구하기 {
 			return Integer.compare(this.w, o.w);
 		}
 		
-		
-		
+				
 	}
 	
 	
