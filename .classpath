@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="jihyun/src/|jeeung/week1/|jeeung/week3/|jeeung/week5/|jeeung/week9/|hanmin/src/week1/|juna/src/week3/|juna/src/week5/|juna/src/week7/|donghee/src/|eunjung/|Orlando/week2/boj1991/|eunjin/src/|juna/src/|jeeung/week2/|jeeung/week4/|jeeung/week6/|juna/src/week2/|juna/src/week4/|juna/src/week6/|juna/src/week8/|wonjoon/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="donghee/src"/>
+	<classpathentry kind="src" path="eunjin/src"/>
+	<classpathentry kind="src" path="eunjung"/>
+	<classpathentry kind="src" path="hanmin/src/week1"/>
+	<classpathentry kind="src" path="jeeung/week1"/>
+	<classpathentry kind="src" path="jeeung/week2"/>
+	<classpathentry kind="src" path="jeeung/week3"/>
+	<classpathentry kind="src" path="jeeung/week4"/>
+	<classpathentry kind="src" path="jeeung/week5"/>
+	<classpathentry kind="src" path="jeeung/week6"/>
+	<classpathentry kind="src" path="jeeung/week9"/>
+	<classpathentry kind="src" path="jihyun/src"/>
+	<classpathentry excluding="week3/|week5/|week7/|week2/|week4/|week6/|week8/" kind="src" path="juna/src"/>
+	<classpathentry kind="src" path="juna/src/week2"/>
+	<classpathentry kind="src" path="juna/src/week3"/>
+	<classpathentry kind="src" path="juna/src/week4"/>
+	<classpathentry kind="src" path="juna/src/week5"/>
+	<classpathentry kind="src" path="juna/src/week6"/>
+	<classpathentry kind="src" path="juna/src/week7"/>
+	<classpathentry kind="src" path="juna/src/week8"/>
+	<classpathentry kind="src" path="Orlando/week2/boj1991"/>
+	<classpathentry kind="src" path="wonjoon/src"/>
+	<classpathentry kind="output" path="donghee/bin"/>
+</classpath>
