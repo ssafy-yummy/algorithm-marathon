@@ -49,7 +49,6 @@ public class BOJ_1976_G4_여행가자 {
 		for (int i = 1; i < m; i++) {
 			int next = Integer.parseInt(st.nextToken());
 			
-			
 			//만약 다음도시로 가는 길이 없다면 no를 출력하고 main함수를 종료
 			if(!check(root,next,map)) {
 				System.out.println("NO");
