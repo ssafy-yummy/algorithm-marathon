@@ -38,9 +38,6 @@ public class BOJ_16234_인구이동 {
 		r = Integer.parseInt(st.nextToken());
 		map = new int[n][n];
 		
-		
-
-		
 //		맵을 받음
 		for (int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine());
