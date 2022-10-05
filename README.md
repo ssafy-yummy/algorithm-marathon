@@ -158,7 +158,33 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 1182  | [부분수열의 합](https://www.acmicpc.net/problem/1182) | 백트래킹     | S2   |
 | BOJ  | 1715   | [카드 정렬하기](https://www.acmicpc.net/problem/1715)    | 우선순위큐 | G4   |
 
+### 🏃🏻‍♂️week 8
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| SWEA  | 1953  | [탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq&categoryId=AV5PpLlKAQ4DFAUq&categoryType=CODE&problemTitle=%ED%83%88%EC%A3%BC&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&)    	| 구현 | 모의 |
+| PG | 92342 | [양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)    | 구현 | Lv.2   |
+| BOJ  | 16928 | [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928) | 구현,그래프 | G5   |
+| BOJ  | 15685 | [드래곤 커브](https://www.acmicpc.net/problem/15685)    | 구현 | G4 |
 
 
+### 🏃🏻‍♂️week 9
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 1916  | [최소 비용 구하기](https://www.acmicpc.net/problem/1916)    	| 다익스트라 | G5 |
+| BOJ | 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252)    | 위상 정렬 | G3   |
+| BOJ  | 1976 | [여행 가자](https://www.acmicpc.net/problem/1976) | 그래프,분리 집합 |  G4  |
+| **BOJ**  | **16234** | **[인구 이동](https://www.acmicpc.net/problem/16234)**    | **구현** | **G5** |
+
+
+### 🏃🏻‍♂️week 10
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20207  | [달력](https://www.acmicpc.net/problem/20207)    	| 구현     | S1  |
+| BOJ | 21608 | [상어 초등학교](https://www.acmicpc.net/problem/21608)    | 구현     | G5  |
+| BOJ  | 2225 | [합분해](https://www.acmicpc.net/problem/2225)    | DP     |  G5   |
+| BOJ  | 1309 | [동물원](https://www.acmicpc.net/problem/1309)     | DP     | S1  |
 
  
