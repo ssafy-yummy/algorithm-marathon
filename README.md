@@ -177,4 +177,14 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 1976 | [여행 가자](https://www.acmicpc.net/problem/1976) | 그래프,분리 집합 |  G4  |
 | **BOJ**  | **16234** | **[인구 이동](https://www.acmicpc.net/problem/16234)**    | **구현** | **G5** |
 
+
+### 🏃🏻‍♂️week 10
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20207  | [달력](https://www.acmicpc.net/problem/20207)    	| 구현     | S1  |
+| BOJ | 21608 | [상어 초등학교](https://www.acmicpc.net/problem/21608)    | 구현     | G5  |
+| BOJ  | 2225 | [합분해](https://www.acmicpc.net/problem/2225)    | DP     |  G5   |
+| BOJ  | 1309 | [동물원](https://www.acmicpc.net/problem/1309)     | DP     | S1  |
+
  
