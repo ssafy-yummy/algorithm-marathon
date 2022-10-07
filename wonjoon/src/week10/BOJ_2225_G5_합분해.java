@@ -1,4 +1,4 @@
-package com.ssafy.algorithm.boj;
+package week10;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
