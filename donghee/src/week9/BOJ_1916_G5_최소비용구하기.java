@@ -41,6 +41,7 @@ public class BOJ_1916_G5_최소비용구하기 {
 //		}
 		StringTokenizer st= new StringTokenizer(br.readLine());
 		start= Integer.parseInt(st.nextToken())-1;
+		
 		end= Integer.parseInt(st.nextToken())-1;
 		
 		dijkstra(start);
