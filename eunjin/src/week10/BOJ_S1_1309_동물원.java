@@ -19,5 +19,4 @@ public class BOJ_S1_1309_동물원 {
 		
 		System.out.println(ans);
 	}
-
 }
