@@ -30,9 +30,6 @@ public class BOJ_20207_S1_달력 {
 			else
 				return Integer.compare(this.s, o.s);
 		}
-		
-		
-		
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
