@@ -9,9 +9,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-
 public class BOJ_1976_G4_여행가자 {
-	
 	
 	static int N,M,ways[];
 	static List<Integer>[] edges;
@@ -79,7 +77,6 @@ public class BOJ_1976_G4_여행가자 {
 				System.out.println("NO");
 				System.exit(0);
 			}
-			
 		}
 		System.out.println("YES");
 	}
