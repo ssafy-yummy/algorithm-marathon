@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-class Solution_5653_줄기세포배양 {
+class SWEA_5653_줄기세포배양 {
 	static int[] dx = { 1, -1, 0, 0, 1, 1, -1, -1 };
 	static int[] dy = { 0, 0, 1, -1, 1, -1, 1, -1 };
 	static int answer;
