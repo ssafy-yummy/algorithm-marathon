@@ -196,4 +196,11 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 14719 | [빗물](https://www.acmicpc.net/problem/14719)    | 구현     |  G5   |
 | SWEA  | 5653 | [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo&categoryId=AWXRJ8EKe48DFAUo&categoryType=CODE&problemTitle=5653&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)     | 구현     | 모의  |
 
- 
+ ### 🏃🏻‍♂️week 12
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20546  | [기적의 매매법](https://www.acmicpc.net/problem/20546)    	| 시뮬레이션     | S5  |
+| BOJ | 2564 | [경비원](https://www.acmicpc.net/problem/2564)    | 많은 조건 분기     | S1  |
+| BOJ  | 2436 | [공약수](https://www.acmicpc.net/problem/2436)    | 정수론     |  G5   |
+| BOJ  | 14565 | [역원 구하기](https://www.acmicpc.net/problem/14565)    | 정수론    | G2  |
