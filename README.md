@@ -204,3 +204,12 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ | 2564 | [경비원](https://www.acmicpc.net/problem/2564)    | 많은 조건 분기     | S1  |
 | BOJ  | 2436 | [공약수](https://www.acmicpc.net/problem/2436)    | 정수론     |  G5   |
 | BOJ  | 14565 | [역원 구하기](https://www.acmicpc.net/problem/14565)    | 정수론    | G2  |
+
+ ### 🏃🏻‍♂️week 13
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| SWEA  | 4193  | [수영대회 결승전](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV&categoryId=AWKaG6_6AGQDFARV&categoryType=CODE)    	| 완탐, 구현     | D4  |
+| SWEA | 2503 | [베스킨라빈스_N](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AV6h-SF6pisDFAXN&categoryId=AV6h-SF6pisDFAXN&categoryType=CODE)    | 구현     | D3  |
+| BOJ  | 12904 | [A와 B](https://www.acmicpc.net/problem/12904)    | 그리디     |  G5   |
+| BOJ  | 23843 | [콘센트](https://www.acmicpc.net/problem/23843)    | 그리디    | G5  |
