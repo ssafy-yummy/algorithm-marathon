@@ -61,7 +61,6 @@ public class SWEA_4193_D4_수영대회결승전 {
 				int nc = cc + dc[i];
 				
 				
-				
 				if(nr>=0 && nr<N && nc >=0 && nc<N && !visited[nr][nc]) {
 					if(map[nr][nc]==1)continue;
 					
@@ -73,7 +72,6 @@ public class SWEA_4193_D4_수영대회결승전 {
 					}
 				}
 			}
-			
 		}
 	
 		result =-1;
