@@ -213,3 +213,20 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | SWEA | 2503 | [베스킨라빈스_N](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AV6h-SF6pisDFAXN&categoryId=AV6h-SF6pisDFAXN&categoryType=CODE)    | 구현     | D3  |
 | BOJ  | 12904 | [A와 B](https://www.acmicpc.net/problem/12904)    | 그리디     |  G5   |
 | BOJ  | 23843 | [콘센트](https://www.acmicpc.net/problem/23843)    | 그리디    | G5  |
+
+ ### 🏃🏻‍♂️week 14
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 2116  | [주사위 쌓기](https://www.acmicpc.net/problem/2116)    	| 구현, 브루트포스 | G5 |
+| BOJ | 8394 | [악수](https://www.acmicpc.net/problem/8394)    | 수학, 다이나믹 프로그래밍    | S3  |
+| PROGRAMMERS  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
+| BOJ  | 11048 | [이동하기](https://www.acmicpc.net/problem/11048)    | DP    | S2  |
+
+unning: Week 14
+Type	문제	제목	유형	등급
+BOJ	2116	주사위 쌓기	구현, 브루트포스	G5
+BOJ	8394	악수	수학, 다이나믹 프로그래밍	S3
+PROGRAMMERS	카카오 블라인드	캐시	LRU	LV2
+BOJ	11048	이동하기	DP	S2
+
