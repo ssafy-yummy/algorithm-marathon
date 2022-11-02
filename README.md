@@ -196,4 +196,29 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | BOJ  | 14719 | [빗물](https://www.acmicpc.net/problem/14719)    | 구현     |  G5   |
 | SWEA  | 5653 | [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo&categoryId=AWXRJ8EKe48DFAUo&categoryType=CODE&problemTitle=5653&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)     | 구현     | 모의  |
 
- 
+ ### 🏃🏻‍♂️week 12
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20546  | [기적의 매매법](https://www.acmicpc.net/problem/20546)    	| 시뮬레이션     | S5  |
+| BOJ | 2564 | [경비원](https://www.acmicpc.net/problem/2564)    | 많은 조건 분기     | S1  |
+| BOJ  | 2436 | [공약수](https://www.acmicpc.net/problem/2436)    | 정수론     |  G5   |
+| BOJ  | 14565 | [역원 구하기](https://www.acmicpc.net/problem/14565)    | 정수론    | G2  |
+
+ ### 🏃🏻‍♂️week 13
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| SWEA  | 4193  | [수영대회 결승전](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV&categoryId=AWKaG6_6AGQDFARV&categoryType=CODE)    	| 완탐, 구현     | D4  |
+| SWEA | 2503 | [베스킨라빈스_N](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AV6h-SF6pisDFAXN&categoryId=AV6h-SF6pisDFAXN&categoryType=CODE)    | 구현     | D3  |
+| BOJ  | 12904 | [A와 B](https://www.acmicpc.net/problem/12904)    | 그리디     |  G5   |
+| BOJ  | 23843 | [콘센트](https://www.acmicpc.net/problem/23843)    | 그리디    | G5  |
+
+ ### 🏃🏻‍♂️week 14
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 2116  | [주사위 쌓기](https://www.acmicpc.net/problem/2116)    	| 구현, 브루트포스 | G5 |
+| BOJ | 8394 | [악수](https://www.acmicpc.net/problem/8394)    | 수학, 다이나믹 프로그래밍    | S3  |
+| PROGRAMMERS  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
+| BOJ  | 11048 | [이동하기](https://www.acmicpc.net/problem/11048)    | DP    | S2  |

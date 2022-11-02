@@ -46,7 +46,6 @@ public class BOJ_23843_G5_콘센트 {
 				min = 33000;
 			}
 		}
-
 		System.out.println(ans);
 	}
 }
