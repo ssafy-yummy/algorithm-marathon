@@ -220,5 +220,5 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
 | BOJ  | 2116  | [주사위 쌓기](https://www.acmicpc.net/problem/2116)    	| 구현, 브루트포스 | G5 |
 | BOJ | 8394 | [악수](https://www.acmicpc.net/problem/8394)    | 수학, 다이나믹 프로그래밍    | S3  |
-| PROGRAMMERS  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
+| PG  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
 | BOJ  | 11048 | [이동하기](https://www.acmicpc.net/problem/11048)    | DP    | S2  |
