@@ -3,7 +3,7 @@ package week14;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class BOJ_8394_S3악수 {
+public class BOJ_8394_S3_악수 {
 
 	public static void main(String[] args) throws Exception {
 
