@@ -165,8 +165,60 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | SWEA  | 1953  | [탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq&categoryId=AV5PpLlKAQ4DFAUq&categoryType=CODE&problemTitle=%ED%83%88%EC%A3%BC&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&)    	| 구현 | 모의 |
 | PG | 92342 | [양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)    | 구현 | Lv.2   |
 | BOJ  | 16928 | [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928) | 구현,그래프 | G5   |
-| BOJ  | 15685 | [드래곤 커브](https://www.acmicpc.net/problem/15685)    | 구현 | G5 |
+| BOJ  | 15685 | [드래곤 커브](https://www.acmicpc.net/problem/15685)    | 구현 | G4 |
 
 
+### 🏃🏻‍♂️week 9
 
- 
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 1916  | [최소 비용 구하기](https://www.acmicpc.net/problem/1916)    	| 다익스트라 | G5 |
+| BOJ | 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252)    | 위상 정렬 | G3   |
+| BOJ  | 1976 | [여행 가자](https://www.acmicpc.net/problem/1976) | 그래프,분리 집합 |  G4  |
+| **BOJ**  | **16234** | **[인구 이동](https://www.acmicpc.net/problem/16234)**    | **구현** | **G5** |
+
+
+### 🏃🏻‍♂️week 10
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20207  | [달력](https://www.acmicpc.net/problem/20207)    	| 구현     | S1  |
+| BOJ | 21608 | [상어 초등학교](https://www.acmicpc.net/problem/21608)    | 구현     | G5  |
+| BOJ  | 2225 | [합분해](https://www.acmicpc.net/problem/2225)    | DP     |  G5   |
+| BOJ  | 1309 | [동물원](https://www.acmicpc.net/problem/1309)     | DP     | S1  |
+
+### 🏃🏻‍♂️week 11
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 2573  | [빙산](https://www.acmicpc.net/problem/2573)    	| 구현     | G4  |
+| BOJ | 1405 | [미친 로봇](https://www.acmicpc.net/problem/1405)    | 그래프     | G5  |
+| BOJ  | 14719 | [빗물](https://www.acmicpc.net/problem/14719)    | 구현     |  G5   |
+| SWEA  | 5653 | [줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo&categoryId=AWXRJ8EKe48DFAUo&categoryType=CODE&problemTitle=5653&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)     | 구현     | 모의  |
+
+ ### 🏃🏻‍♂️week 12
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 20546  | [기적의 매매법](https://www.acmicpc.net/problem/20546)    	| 시뮬레이션     | S5  |
+| BOJ | 2564 | [경비원](https://www.acmicpc.net/problem/2564)    | 많은 조건 분기     | S1  |
+| BOJ  | 2436 | [공약수](https://www.acmicpc.net/problem/2436)    | 정수론     |  G5   |
+| BOJ  | 14565 | [역원 구하기](https://www.acmicpc.net/problem/14565)    | 정수론    | G2  |
+
+ ### 🏃🏻‍♂️week 13
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| SWEA  | 4193  | [수영대회 결승전](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV&categoryId=AWKaG6_6AGQDFARV&categoryType=CODE)    	| 완탐, 구현     | D4  |
+| SWEA | 2503 | [베스킨라빈스_N](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AV6h-SF6pisDFAXN&categoryId=AV6h-SF6pisDFAXN&categoryType=CODE)    | 구현     | D3  |
+| BOJ  | 12904 | [A와 B](https://www.acmicpc.net/problem/12904)    | 그리디     |  G5   |
+| BOJ  | 23843 | [콘센트](https://www.acmicpc.net/problem/23843)    | 그리디    | G5  |
+
+ ### 🏃🏻‍♂️week 14
+
+| Type | 문제  | 제목                                                   | 유형       | 등급 |
+| ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
+| BOJ  | 2116  | [주사위 쌓기](https://www.acmicpc.net/problem/2116)    	| 구현, 브루트포스 | G5 |
+| BOJ | 8394 | [악수](https://www.acmicpc.net/problem/8394)    | 수학, 다이나믹 프로그래밍    | S3  |
+| PG  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
+| BOJ  | 11048 | [이동하기](https://www.acmicpc.net/problem/11048)    | DP    | S2  |
