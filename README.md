@@ -235,6 +235,6 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 |Type | 문제 | 제목 | 유형 | 등급|
 |--- | --- | --- | --- | ---|
 |SWEA| 2115| [벌꿀채취](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu) | 시뮬레이션 | 모의|
-|BOJ | 1079| [마피아](https://www.acmicpc.net/problem/1079)| 완전탐 | G2|
+|BOJ | 1079| [마피아](https://www.acmicpc.net/problem/1079)| 완전탐색 | G2|
 |PROGRAMMERS | 연습문제 | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)| 그리디 | LV2|
-|BOJ | 2665| [미로 만들기](https://www.acmicpc.net/problem/2665)| 그래 | G4|
+|BOJ | 2665| [미로 만들기](https://www.acmicpc.net/problem/2665)| 그래프 | G4|
