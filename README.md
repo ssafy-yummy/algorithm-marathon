@@ -238,3 +238,11 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 |BOJ | 1079| [마피아](https://www.acmicpc.net/problem/1079)| 완전탐색 | G2|
 |PROGRAMMERS | 연습문제 | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)| 그리디 | LV2|
 |BOJ | 2665| [미로 만들기](https://www.acmicpc.net/problem/2665)| 그래프 | G4|
+
+### 🏃Week 17
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|SWEA| 5658| [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo&categoryId=AWXRUN9KfZ8DFAUo&categoryType=CODE&problemTitle=5658&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) | 구현 | 모의|
+|BOJ | 16235| [나무 재테크](https://www.acmicpc.net/problem/16235)| 구현, 자료구조 | G3|
+|BOJ | 17140 | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)| 구현, 정렬 | G4|
+|BOJ | 21924| [도시 건설](https://www.acmicpc.net/problem/21924)| 그래프 이론, 최소 스패닝 트리 | G4|
