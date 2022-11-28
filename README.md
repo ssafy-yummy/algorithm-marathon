@@ -246,3 +246,11 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 |BOJ | 16235| [나무 재테크](https://www.acmicpc.net/problem/16235)| 구현, 자료구조 | G3|
 |BOJ | 17140 | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)| 구현, 정렬 | G4|
 |BOJ | 21924| [도시 건설](https://www.acmicpc.net/problem/21924)| 그래프 이론, 최소 스패닝 트리 | G4|
+
+### 🏃Week 18
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|BOJ| 13335| [트럭](https://www.acmicpc.net/problem/13335) | 자료구조 | S1|
+|BOJ | 2792| [보석 상자](https://www.acmicpc.net/problem/2792)| 자료구조 | S2|
+|PG | Summer/Winter Coding | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)| - | LV2|
+|PG | 2018 KAKAO BLIND| [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)| - | LV2|
