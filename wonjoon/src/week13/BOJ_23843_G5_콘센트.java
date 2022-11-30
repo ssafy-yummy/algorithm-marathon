@@ -24,8 +24,6 @@ public class BOJ_23843_G5_콘센트 {
 		for (int i = 0; i < N; i++)
 			pq.add(Integer.parseInt(st.nextToken()));
 
-//		System.out.println(pq.poll());
-
 		int max = 0; // 최대
 		int min = 33000;// 최소
 		int ans = 0;
@@ -48,12 +46,6 @@ public class BOJ_23843_G5_콘센트 {
 				min = 33000;
 			}
 		}
-//		for (int x : arr) {
-//			int diff = x - min;
-//			if (diff != 0)
-//				pq.add(diff);
-//		}
-//		System.out.println(arr);
 		System.out.println(ans);
 	}
 }
