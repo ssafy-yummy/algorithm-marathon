@@ -1,10 +1,10 @@
-def convert(str):
+def convert(str):  # 음을 한글자로 바꿔주는 함수
     dct = {"C": "A", "C#": "B", "D": "C", "D#": "D", "E": "E", "F": "F", "F#": "G", "G": "H", "G#": "I", "A": "J",
            "A#": "K", "B": "H", "E#": "I"}
 
-    now = ""
-    cvt_str = ""
-    for i in range(len(str) - 1, -1, -1):
+    now = ""  # 임시로 음을 저장
+    cvt_str = ""  # 변환된 음을 저장
+    for i in range(len(str) - 1, -1, -1):  # '#'을 발견하면 그 뒤에 있는 알파벳으로 변환해야 하므로 뒤에서 부터 정렬
 
         if now != "":
             now = str[i] + "#"
@@ -21,8 +21,7 @@ def convert(str):
 
 
 def solution(m, musicinfos):
-    # ans = ''
-    m = convert(m)
+    m = convert(m)  # m 도 한글자 str로 변환
 
     data = []
     for i in range(len(musicinfos)):
@@ -43,9 +42,9 @@ def solution(m, musicinfos):
         if melody.find(m) != -1:
             find = 1
 
-        data.append((find, pt, title))
+        data.append((find, pt, title))  # 우선 순위로 정답을 나누기 때문에 임시로 리스트에 담아둠
 
-    data = sorted(data, key=lambda x: (-x[0], -x[1]))
+    data = sorted(data, key=lambda x: (-x[0], -x[1]))  # 정답이 같으면 재생시간이 긴 순서대로 정렬
 
     res = data[0]
 
