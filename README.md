@@ -258,8 +258,8 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 ### 🏃Week 19
 |Type | 문제 | 제목 | 유형 | 등급|
 |--- | --- | --- | --- | ---|
-|BOJ | 6549 | 히스토그램에서 가장 큰 직사각형 분할정복(https://www.acmicpc.net/problem/6549) | 세그먼트 트리, 분할 정복 | P5|
-|PG | 탐욕법(Greedy) | 조이스틱(https://school.programmers.co.kr/learn/courses/30/lessons/42860) | 그리디 | LV2|
-|BOJ | 2251 | 물통 | 너비우선 탐색(https://www.acmicpc.net/problem/2251) | G5|
-|BOJ | 13164 | 행복 유치원(https://www.acmicpc.net/problem/13164) | 정렬|
+|BOJ | 6549 | [히스토그램에서 가장 큰 직사각형 분할정복](https://www.acmicpc.net/problem/6549) | 세그먼트 트리, 분할 정복 | P5|
+|PG | 탐욕법(Greedy) | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | 그리디 | LV2|
+|BOJ | 2251 | 물통 | [너비우선 탐색](https://www.acmicpc.net/problem/2251) | G5|
+|BOJ | 13164 | [행복 유치원](https://www.acmicpc.net/problem/13164) | 정렬|
 
