@@ -220,5 +220,46 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 | ---- | ----- | ------------------------------------------------------ | ---------- | ---- |
 | BOJ  | 2116  | [주사위 쌓기](https://www.acmicpc.net/problem/2116)    	| 구현, 브루트포스 | G5 |
 | BOJ | 8394 | [악수](https://www.acmicpc.net/problem/8394)    | 수학, 다이나믹 프로그래밍    | S3  |
-| PROGRAMMERS  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
+| PG  | 카카오 블라인드 | [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=python3)    | LRU     |  LV2   |
 | BOJ  | 11048 | [이동하기](https://www.acmicpc.net/problem/11048)    | DP    | S2  |
+
+### 🏃Week 15
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|SWEA| 2105| [디저트 카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu&) | 시뮬레이션, 브루트포스 | G5|
+|BOJ | 23291| [어항 정리](https://www.acmicpc.net/problem/23291)| 구현,시뮬레이션 | P5|
+|PROGRAMMERS | 연습문제 | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)| 완전탐색 | LV2|
+|BOJ | 20922| [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)| 투포인터 | S1|
+
+### 🏃Week 16
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|SWEA| 2115| [벌꿀채취](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu) | 시뮬레이션 | 모의|
+|BOJ | 1079| [마피아](https://www.acmicpc.net/problem/1079)| 완전탐색 | G2|
+|PROGRAMMERS | 연습문제 | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)| 그리디 | LV2|
+|BOJ | 2665| [미로 만들기](https://www.acmicpc.net/problem/2665)| 그래프 | G4|
+
+### 🏃Week 17
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|SWEA| 5658| [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo&categoryId=AWXRUN9KfZ8DFAUo&categoryType=CODE&problemTitle=5658&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) | 구현 | 모의|
+|BOJ | 16235| [나무 재테크](https://www.acmicpc.net/problem/16235)| 구현, 자료구조 | G3|
+|BOJ | 17140 | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)| 구현, 정렬 | G4|
+|BOJ | 21924| [도시 건설](https://www.acmicpc.net/problem/21924)| 그래프 이론, 최소 스패닝 트리 | G4|
+
+### 🏃Week 18
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|BOJ| 13335| [트럭](https://www.acmicpc.net/problem/13335) | 자료구조 | S1|
+|BOJ | 2792| [보석 상자](https://www.acmicpc.net/problem/2792)| 자료구조 | S2|
+|PG | Summer/Winter Coding | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)| - | LV2|
+|PG | 2018 KAKAO BLIND| [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)| - | LV2|
+
+### 🏃Week 19
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|BOJ | 6549 | [히스토그램에서 가장 큰 직사각형 분할정복](https://www.acmicpc.net/problem/6549) | 세그먼트 트리, 분할 정복 | P5|
+|PG | 탐욕법(Greedy) | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | 그리디 | LV2|
+|BOJ | 2251 | [물통](https://www.acmicpc.net/problem/2251) | 너비우선 탐색| G5|
+|BOJ | 13164 | [행복 유치원](https://www.acmicpc.net/problem/13164) | 정렬|G5|
+
