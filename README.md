@@ -263,6 +263,14 @@ WONJOON : BOJ 13460 G1 구슬 탈출2
 |BOJ | 2251 | [물통](https://www.acmicpc.net/problem/2251) | 너비우선 탐색| G5|
 |BOJ | 13164 | [행복 유치원](https://www.acmicpc.net/problem/13164) | 정렬|G5|
 
+### 🏃Week 20
+|Type | 문제 | 제목 | 유형 | 등급|
+|--- | --- | --- | --- | ---|
+|BOJ | 2110 | [공유기 설치](https://www.acmicpc.net/problem/2110) | 세그먼트 트리, 분할 정복 | G4|
+|PG | 2021 Dev-Matching | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | - | LV2|
+|PG | 2022 KAKAO TECH INTERNSHIP | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | - | LV2|
+|BOJ | 14621 | [나만 안되는 연애](https://www.acmicpc.net/problem/14621) | MST|G3|
+
 ### 🏃Week 21
 |Type | 문제 | 제목 | 유형 | 등급|
 |--- | --- | --- | --- | ---|
