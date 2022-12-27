@@ -1,55 +1,60 @@
 package week20;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class PG_LV2_행렬테두리회전하기 {
 
-    static int map[][];
-    static int dd[][] = {{1,0},{0,1},{-1,0},{0,-1}};
+    static Queue<Integer> que1, que2;
     
 	public static void main(String[] args) {
-		int rows = 6;
-		int columns = 6;
-		int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};
-		System.out.println(Arrays.toString(solution(rows,columns,queries)));
+		int[] queue1 = {3, 2, 7, 2};
+		int[] queue2 = {4, 6, 5 ,1};
+		System.out.println(solution(queue1,queue2));
 	}
-    
-    public static int[] solution(int rows, int columns, int[][] queries) {
-        makeMap(rows, columns); // map[][] 전역변수 생성
 
-        int n = queries.length;
-        int[] answer = new int[n];
-        for(int i=0; i<n; i++) {
-            answer[i] = moveAndFind(queries[i][0]-1, queries[i][1]-1, queries[i][2]-1, queries[i][3]-1);
+    public static int solution(int[] queue1, int[] queue2) {
+        long sum1 = sum(queue1);
+        long sum2 = sum(queue2);
+        if(!makeQue(queue1, queue2, sum1+sum2)) return -1;
+        int answer = 0;
+        while(sum1 != sum2) {
+            answer++;
+            if(answer > que1.size()*2+que2.size()*2) return -1;
+            if(que1.size()==0 || que2.size()==0) return -1;
+            if(sum1 > sum2) {
+                int temp = que1.poll();
+                que2.offer(temp);
+                sum1 -= temp;
+                sum2 += temp;
+            } else {
+                int temp = que2.poll();
+                que1.offer(temp);
+                sum1 += temp;
+                sum2 -= temp;
+            }
         }
         return answer;
     }
+    static long sum(int[] que) {
+        long s = 0;
+        for(int q: que) {
+            s += q;
+        }
+        return s;
+    }
+    static boolean makeQue(int[] queue1, int[] queue2, long sum) {
+        que1 = new LinkedList<>();
+        que2 = new LinkedList<>();
+        for(int q: queue1) {
+            if(q > sum/2) return false;
+            que1.offer(q);
+        }
+        for(int q: queue2) {
+            if(q > sum/2) return false;
+            que2.offer(q);
+        }
+        return true;
+    }
     
-    static void makeMap(int rows, int columns) {
-        map = new int[rows][columns];
-        for(int i=0,k=1; i<rows; i++) {
-            for(int j=0; j<columns; j++) {
-                map[i][j] = k++;
-            }
-        }
-    }
-    static int moveAndFind(int x1, int y1, int x2, int y2) {
-        int r = x1;
-        int c = y1;
-        int d = 0;
-        int temp = map[r][c];
-        int minValue = map[r][c];
-        while(d<4) {	// 반시계 방향으로 돌면서 값을 돌려 바꿔준다
-            int nr = r+dd[d][0];
-            int nc = c+dd[d][1];
-            if((nr==x1||nr==x2)&&(nc==y1||nc==y2)) d++;	// 모서리에 닿으면 방향을 꺾
-            map[r][c] = map[nr][nc];
-            r = nr;
-            c = nc;
-            
-            if(map[r][c] < minValue) minValue = map[r][c];
-        }
-        map[x1][y1+1] = temp;
-        return minValue;
-    }
+    
 }
